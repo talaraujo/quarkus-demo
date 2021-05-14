@@ -1,4 +1,6 @@
 pipeline {
+   agent {
+    }
    stages {
     stage('Docker node test') {
       agent {
